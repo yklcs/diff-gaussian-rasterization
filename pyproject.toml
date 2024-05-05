@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diff_gaussian_rasterization"
+version = "1.0.0"
+
+[tool.setuptools]
+packages = ["diff_gaussian_rasterization"]
